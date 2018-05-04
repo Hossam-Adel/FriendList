@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC05A9D22048316000A19AE6 /* 28308168_10159931465850545_366579006_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05A9CE2048315F00A19AE6 /* 28308168_10159931465850545_366579006_n.jpg */; };
+		CC05A9D32048316000A19AE6 /* 28308319_10159931467185545_500694221_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05A9CF2048315F00A19AE6 /* 28308319_10159931467185545_500694221_n.jpg */; };
+		CC05A9D42048316000A19AE6 /* 28308361_10159931467835545_979349299_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05A9D02048315F00A19AE6 /* 28308361_10159931467835545_979349299_n.jpg */; };
+		CC05A9D52048316000A19AE6 /* IMG_20170527_200548.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC05A9D12048316000A19AE6 /* IMG_20170527_200548.jpg */; };
+		CC05A9D82048377500A19AE6 /* JETSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC05A9D72048377500A19AE6 /* JETSAnnotation.m */; };
+		D16DC8012047462D007979DB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16DC8002047462D007979DB /* MapKit.framework */; };
+		D16DC8062047476D007979DB /* JETSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16DC8052047476D007979DB /* JETSViewController.m */; };
+		D16DC80C204763EC007979DB /* JETSMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = D16DC80B204763EC007979DB /* JETSMapController.m */; };
+		D197939A20458FF600F628C7 /* JETSFriendDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197939920458FF600F628C7 /* JETSFriendDetailsViewController.m */; };
+		D197939E20459A6800F628C7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D197939D20459A6800F628C7 /* libsqlite3.dylib */; };
 		D197EE032043085A005D7554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE022043085A005D7554 /* Foundation.framework */; };
 		D197EE052043085A005D7554 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE042043085A005D7554 /* CoreGraphics.framework */; };
 		D197EE072043085A005D7554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE062043085A005D7554 /* UIKit.framework */; };
@@ -14,13 +24,16 @@
 		D197EE0F2043085A005D7554 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE0E2043085A005D7554 /* main.m */; };
 		D197EE132043085A005D7554 /* JETSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE122043085A005D7554 /* JETSAppDelegate.m */; };
 		D197EE162043085A005D7554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D197EE142043085A005D7554 /* Main.storyboard */; };
-		D197EE192043085A005D7554 /* JETSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE182043085A005D7554 /* JETSViewController.m */; };
 		D197EE1B2043085A005D7554 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D197EE1A2043085A005D7554 /* Images.xcassets */; };
 		D197EE222043085A005D7554 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE212043085A005D7554 /* XCTest.framework */; };
 		D197EE232043085A005D7554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE022043085A005D7554 /* Foundation.framework */; };
 		D197EE242043085A005D7554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D197EE062043085A005D7554 /* UIKit.framework */; };
 		D197EE2C2043085A005D7554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D197EE2A2043085A005D7554 /* InfoPlist.strings */; };
 		D197EE2E2043085A005D7554 /* SQLiteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE2D2043085A005D7554 /* SQLiteTests.m */; };
+		D197EE392043E222005D7554 /* JETSTableCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE382043E222005D7554 /* JETSTableCtrl.m */; };
+		D197EE422043F57B005D7554 /* JETSNAVCTRLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D197EE412043F57B005D7554 /* JETSNAVCTRLViewController.m */; };
+		D1A57B6620456F1000DE027D /* JETSFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A57B6520456F1000DE027D /* JETSFriend.m */; };
+		D1DD927620473195004C9189 /* JETSCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DD927520473195004C9189 /* JETSCollectionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC05A9CE2048315F00A19AE6 /* 28308168_10159931465850545_366579006_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28308168_10159931465850545_366579006_n.jpg; sourceTree = "<group>"; };
+		CC05A9CF2048315F00A19AE6 /* 28308319_10159931467185545_500694221_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28308319_10159931467185545_500694221_n.jpg; sourceTree = "<group>"; };
+		CC05A9D02048315F00A19AE6 /* 28308361_10159931467835545_979349299_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28308361_10159931467835545_979349299_n.jpg; sourceTree = "<group>"; };
+		CC05A9D12048316000A19AE6 /* IMG_20170527_200548.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_20170527_200548.jpg; sourceTree = "<group>"; };
+		CC05A9D62048377400A19AE6 /* JETSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSAnnotation.h; sourceTree = "<group>"; };
+		CC05A9D72048377500A19AE6 /* JETSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSAnnotation.m; sourceTree = "<group>"; };
+		CC45B5082049AA4100EF1539 /* JETSMapProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSMapProtocol.h; sourceTree = "<group>"; };
+		CC45B5092049B60A00EF1539 /* JETSUpdateData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSUpdateData.h; sourceTree = "<group>"; };
+		D16DC8002047462D007979DB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D16DC8052047476D007979DB /* JETSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSViewController.m; sourceTree = "<group>"; };
+		D16DC80A204763EC007979DB /* JETSMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JETSMapController.h; path = ../JETSMapController.h; sourceTree = "<group>"; };
+		D16DC80B204763EC007979DB /* JETSMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JETSMapController.m; path = ../JETSMapController.m; sourceTree = "<group>"; };
+		D19778F02046D54200B7843A /* JETSMyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JETSMyProtocol.h; sourceTree = "<group>"; };
+		D197939820458FF600F628C7 /* JETSFriendDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSFriendDetailsViewController.h; sourceTree = "<group>"; };
+		D197939920458FF600F628C7 /* JETSFriendDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSFriendDetailsViewController.m; sourceTree = "<group>"; };
+		D197939B20459A1D00F628C7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D197939D20459A6800F628C7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		D197EDFF2043085A005D7554 /* SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D197EE022043085A005D7554 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D197EE042043085A005D7554 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +76,20 @@
 		D197EE122043085A005D7554 /* JETSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JETSAppDelegate.m; sourceTree = "<group>"; };
 		D197EE152043085A005D7554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D197EE172043085A005D7554 /* JETSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JETSViewController.h; sourceTree = "<group>"; };
-		D197EE182043085A005D7554 /* JETSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JETSViewController.m; sourceTree = "<group>"; };
 		D197EE1A2043085A005D7554 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D197EE202043085A005D7554 /* SQLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D197EE212043085A005D7554 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D197EE292043085A005D7554 /* SQLiteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteTests-Info.plist"; sourceTree = "<group>"; };
 		D197EE2B2043085A005D7554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D197EE2D2043085A005D7554 /* SQLiteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteTests.m; sourceTree = "<group>"; };
+		D197EE372043E222005D7554 /* JETSTableCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSTableCtrl.h; sourceTree = "<group>"; };
+		D197EE382043E222005D7554 /* JETSTableCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSTableCtrl.m; sourceTree = "<group>"; };
+		D197EE402043F57B005D7554 /* JETSNAVCTRLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSNAVCTRLViewController.h; sourceTree = "<group>"; };
+		D197EE412043F57B005D7554 /* JETSNAVCTRLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSNAVCTRLViewController.m; sourceTree = "<group>"; };
+		D1A57B6420456F1000DE027D /* JETSFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSFriend.h; sourceTree = "<group>"; };
+		D1A57B6520456F1000DE027D /* JETSFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSFriend.m; sourceTree = "<group>"; };
+		D1DD927420473195004C9189 /* JETSCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JETSCollectionController.h; sourceTree = "<group>"; };
+		D1DD927520473195004C9189 /* JETSCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JETSCollectionController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16DC8012047462D007979DB /* MapKit.framework in Frameworks */,
+				D197939E20459A6800F628C7 /* libsqlite3.dylib in Frameworks */,
 				D197EE052043085A005D7554 /* CoreGraphics.framework in Frameworks */,
 				D197EE072043085A005D7554 /* UIKit.framework in Frameworks */,
 				D197EE032043085A005D7554 /* Foundation.framework in Frameworks */,
@@ -82,6 +121,10 @@
 		D197EDF62043085A005D7554 = {
 			isa = PBXGroup;
 			children = (
+				CC05A9CE2048315F00A19AE6 /* 28308168_10159931465850545_366579006_n.jpg */,
+				CC05A9CF2048315F00A19AE6 /* 28308319_10159931467185545_500694221_n.jpg */,
+				CC05A9D02048315F00A19AE6 /* 28308361_10159931467835545_979349299_n.jpg */,
+				CC05A9D12048316000A19AE6 /* IMG_20170527_200548.jpg */,
 				D197EE082043085A005D7554 /* SQLite */,
 				D197EE272043085A005D7554 /* SQLiteTests */,
 				D197EE012043085A005D7554 /* Frameworks */,
@@ -101,6 +144,9 @@
 		D197EE012043085A005D7554 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D16DC8002047462D007979DB /* MapKit.framework */,
+				D197939D20459A6800F628C7 /* libsqlite3.dylib */,
+				D197939B20459A1D00F628C7 /* libsqlite3.0.dylib */,
 				D197EE022043085A005D7554 /* Foundation.framework */,
 				D197EE042043085A005D7554 /* CoreGraphics.framework */,
 				D197EE062043085A005D7554 /* UIKit.framework */,
@@ -112,11 +158,28 @@
 		D197EE082043085A005D7554 /* SQLite */ = {
 			isa = PBXGroup;
 			children = (
+				D16DC80A204763EC007979DB /* JETSMapController.h */,
+				D16DC80B204763EC007979DB /* JETSMapController.m */,
+				CC05A9D62048377400A19AE6 /* JETSAnnotation.h */,
+				CC05A9D72048377500A19AE6 /* JETSAnnotation.m */,
+				D1DD927420473195004C9189 /* JETSCollectionController.h */,
+				D1DD927520473195004C9189 /* JETSCollectionController.m */,
 				D197EE112043085A005D7554 /* JETSAppDelegate.h */,
 				D197EE122043085A005D7554 /* JETSAppDelegate.m */,
 				D197EE142043085A005D7554 /* Main.storyboard */,
+				D197939820458FF600F628C7 /* JETSFriendDetailsViewController.h */,
+				D197939920458FF600F628C7 /* JETSFriendDetailsViewController.m */,
+				D197EE402043F57B005D7554 /* JETSNAVCTRLViewController.h */,
+				D197EE412043F57B005D7554 /* JETSNAVCTRLViewController.m */,
+				D19778F02046D54200B7843A /* JETSMyProtocol.h */,
+				D197EE372043E222005D7554 /* JETSTableCtrl.h */,
+				D197EE382043E222005D7554 /* JETSTableCtrl.m */,
+				D1A57B6420456F1000DE027D /* JETSFriend.h */,
+				D1A57B6520456F1000DE027D /* JETSFriend.m */,
 				D197EE172043085A005D7554 /* JETSViewController.h */,
-				D197EE182043085A005D7554 /* JETSViewController.m */,
+				D16DC8052047476D007979DB /* JETSViewController.m */,
+				CC45B5092049B60A00EF1539 /* JETSUpdateData.h */,
+				CC45B5082049AA4100EF1539 /* JETSMapProtocol.h */,
 				D197EE1A2043085A005D7554 /* Images.xcassets */,
 				D197EE092043085A005D7554 /* Supporting Files */,
 			);
@@ -230,8 +293,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D197EE1B2043085A005D7554 /* Images.xcassets in Resources */,
+				CC05A9D52048316000A19AE6 /* IMG_20170527_200548.jpg in Resources */,
+				CC05A9D22048316000A19AE6 /* 28308168_10159931465850545_366579006_n.jpg in Resources */,
+				CC05A9D42048316000A19AE6 /* 28308361_10159931467835545_979349299_n.jpg in Resources */,
 				D197EE0D2043085A005D7554 /* InfoPlist.strings in Resources */,
 				D197EE162043085A005D7554 /* Main.storyboard in Resources */,
+				CC05A9D32048316000A19AE6 /* 28308319_10159931467185545_500694221_n.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +317,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D197EE192043085A005D7554 /* JETSViewController.m in Sources */,
+				D16DC8062047476D007979DB /* JETSViewController.m in Sources */,
+				D197939A20458FF600F628C7 /* JETSFriendDetailsViewController.m in Sources */,
+				CC05A9D82048377500A19AE6 /* JETSAnnotation.m in Sources */,
+				D197EE392043E222005D7554 /* JETSTableCtrl.m in Sources */,
+				D16DC80C204763EC007979DB /* JETSMapController.m in Sources */,
 				D197EE132043085A005D7554 /* JETSAppDelegate.m in Sources */,
+				D1DD927620473195004C9189 /* JETSCollectionController.m in Sources */,
+				D1A57B6620456F1000DE027D /* JETSFriend.m in Sources */,
 				D197EE0F2043085A005D7554 /* main.m in Sources */,
+				D197EE422043F57B005D7554 /* JETSNAVCTRLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +535,7 @@
 				D197EE332043085A005D7554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D197EE342043085A005D7554 /* Build configuration list for PBXNativeTarget "SQLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +544,7 @@
 				D197EE362043085A005D7554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
